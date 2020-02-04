@@ -64,11 +64,27 @@ body {
 	background: none;
 }
 
+.main-page button:hover {
+	background-color: rgba(255,255,255,0.05);
+}
+
+.main-page button:active {
+	background-color: rgba(255,255,255,0.1);
+}
+
 .main-page button[reversed] {
 	background: #fff;
 	font-weight: bolder;
 	padding: 15px 45px 15px 45px;
 	color: rgba(25,56,200,1);
+}
+
+.main-page button[reversed]:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.main-page button[reversed]:active {
+	background-color: rgba(255,255,255,0.8);
 }
 
 .main-page .content {
@@ -101,6 +117,43 @@ body {
 	padding: 20px 45px 20px 45px;
 }
 
+.main-page .menu button:hover {
+	background-color: rgba(238,83,98,1);
+}
+
+.main-page .menu button:active {
+	background-color: rgba(220,77,91,1);
+}
+
+
 .main-page .footer {
 	grid-area: 4 / 2 / 5 / 3;
+	margin: auto 0;
+}
+
+.main-page .footer input[type="radio"] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+
+    background-color: #4677ff;
+    color: #4677ff;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;     
+    margin-right: 20px;
+    outline: none;
+}
+
+.main-page .footer input[type="radio"]:checked {
+	background-color: #0043ff;
+	top: 12.5px;
+	height: 20px;
+    width: 20px;
+	border: 5px solid #f7bb07;
 }
