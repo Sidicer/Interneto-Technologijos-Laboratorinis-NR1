@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+
 body {
 	/*background-image: url("../img/background.png");
 	background-repeat: no-repeat;
   	background-position: center center;*/
 	
 	background: url('../img/background.png') no-repeat center top, linear-gradient(270deg, rgba(206,43,52,1) 0%, rgba(25,56,200,1) 100%);
+	background-size: auto 110%;
 
     /* gradient: #1938c8 - #1847ce 
     background: rgb(24,71,206);
@@ -14,9 +17,9 @@ body {
 
 .main-page {
 	color: #fff;
-	font-family: sans-serif;
-	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
 
+	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 0.4fr 0.5fr repeat(2, 1fr);
 	grid-template-rows: 0.7fr 2fr repeat(2, 1fr);
@@ -41,9 +44,7 @@ body {
 .main-page .navigation a {
 	display: inline-block;
 	text-decoration: none;
-
 	color: #fff;
-
 	padding-bottom: 2px;
 }
 
@@ -53,7 +54,21 @@ body {
 
 .main-page .signup {
 	grid-area: 1 / 4 / 2 / 5;
-	margin: auto 0;
+	margin: auto 0;	
+}
+
+.main-page button {
+	display: inline-block;
+	padding: 15px 25px 15px 25px;
+	border-radius: 5px;
+	background: none;
+}
+
+.main-page button[reversed] {
+	background: #fff;
+	font-weight: bolder;
+	padding: 15px 45px 15px 45px;
+	color: rgba(25,56,200,1);
 }
 
 .main-page .content {
@@ -62,16 +77,28 @@ body {
 }
 
 .main-page .content h1 {
-	font-size: 6em;
+	font-size: 5em;
 	line-height: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
 }
 
 .main-page .content p {
+	font-size: 1.3em;
+	line-height: 1.1em;
 	margin-top: 30px;
+	padding-right: 110px;
 }
 
 .main-page .menu {
 	grid-area: 3 / 2 / 4 / 4;
+}
+
+.main-page .menu button {
+	background: #ff5969;
+	font-weight: bolder;
+	border-radius: 10px;
+	padding: 20px 45px 20px 45px;
 }
 
 .main-page .footer {
