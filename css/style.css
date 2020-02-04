@@ -2,9 +2,6 @@ body {
 	/*background-image: url("../img/background.png");
 	background-repeat: no-repeat;
   	background-position: center center;*/
-
-  	overflow-y: hidden ! important;
-    overflow-x: hidden ! important;
 	
 	background: url('../img/background.png') no-repeat center top, linear-gradient(270deg, rgba(206,43,52,1) 0%, rgba(25,56,200,1) 100%);
 
