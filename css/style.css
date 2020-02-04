@@ -1,0 +1,16 @@
+body {
+	/*background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+  	background-position: center center;*/
+
+  	overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+	
+	background: url('../img/background.png') no-repeat center top, linear-gradient(270deg, rgba(206,43,52,1) 0%, rgba(25,56,200,1) 100%);
+
+    /* gradient: #1938c8 - #1847ce 
+    background: rgb(24,71,206);
+	background: -moz-linear-gradient(0deg, rgba(24,71,206,1) 0%, rgba(25,56,200,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(24,71,206,1) 0%, rgba(25,56,200,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1847ce",endColorstr="#1938c8",GradientType=1);*/
+}
