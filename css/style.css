@@ -5,14 +5,15 @@ body {
 	background-repeat: no-repeat;
   	background-position: center center;*/
 	
-	background: url('../img/background.png') no-repeat center top, linear-gradient(270deg, rgba(206,43,52,1) 0%, rgba(25,56,200,1) 100%);
+	background: url('../img/background.png') no-repeat center top, linear-gradient(90deg, rgba(25,56,200,1) 0%, rgba(25,56,200,1) 48%, rgba(206,43,52,1) 52%, rgba(206,43,52,1) 100%);
 	background-size: auto 110%;
 
     /* gradient: #1938c8 - #1847ce 
-    background: rgb(24,71,206);
-	background: -moz-linear-gradient(0deg, rgba(24,71,206,1) 0%, rgba(25,56,200,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(24,71,206,1) 0%, rgba(25,56,200,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1847ce",endColorstr="#1938c8",GradientType=1);*/
+    background: rgb(25,56,200);
+	background: -moz-linear-gradient(90deg, rgba(25,56,200,1) 0%, rgba(25,56,200,1) 48%, rgba(206,43,52,1) 52%, rgba(206,43,52,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(25,56,200,1) 0%, rgba(25,56,200,1) 48%, rgba(206,43,52,1) 52%, rgba(206,43,52,1) 100%);
+	background: linear-gradient(90deg, rgba(25,56,200,1) 0%, rgba(25,56,200,1) 48%, rgba(206,43,52,1) 52%, rgba(206,43,52,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1938c8",endColorstr="#ce2b34",GradientType=1); */
 }
 
 .main-page {
